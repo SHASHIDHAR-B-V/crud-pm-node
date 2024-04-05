@@ -105,7 +105,7 @@ let updateTask = async (req, res) => {
     res.status(201).json({
       status: 'success',
       data: {
-        updateTask,
+        updatedTasks,
       },
     });
   } catch (error) {
