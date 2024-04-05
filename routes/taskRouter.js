@@ -10,6 +10,7 @@ const {
 //router instance
 let taskRouter = express.Router();
 
+//the below ones are handler function
 taskRouter.get('/task', getTasks);
 taskRouter.post('/task', createTask);
 taskRouter.get('/task/:id', getTask);
