@@ -80,6 +80,8 @@ let getTask = async (req, res) => {
     });
   }
 };
+
+//update task
 let updateTask = async (req, res) => {
   try {
     const { id } = req.params;
